@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'scrapper.apps.ScrapperConfig',
     'home.apps.HomeConfig',
+    'csv_converter.apps.CsvConverterConfig',
     'wellfound_user.apps.WellfoundUserConfig',
 ]
 
