@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'csv_converter.apps.CsvConverterConfig',
     'wellfound_user.apps.WellfoundUserConfig',
+    'collisionconf.apps.CollisionconfConfig',
 ]
 
 MIDDLEWARE = [

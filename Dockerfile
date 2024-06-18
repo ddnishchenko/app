@@ -12,6 +12,7 @@ ENV PYTHONUNBUFFERED=1
 # Install pip requirements
 COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
+RUN playwright install --with-deps chromium
 
 WORKDIR /app
 COPY . /app
